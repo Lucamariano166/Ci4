@@ -1,0 +1,194 @@
+ERROR - 2022-03-03 09:59:59 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+ERROR - 2022-03-03 10:02:38 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-03-03 10:14:07 --> Invalid file: templantes/footer.php
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php(12): view()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->index()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#8 {main}
+CRITICAL - 2022-03-03 11:37:52 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, string given, called in C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php on line 31
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php(31): CodeIgniter\HTTP\RedirectResponse->to()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->salvar()
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#6 {main}
+CRITICAL - 2022-03-03 11:41:05 --> Argument 2 passed to view() must be of the type array, string given, called in C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php on line 31
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php(31): view()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->salvar()
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#6 {main}
+CRITICAL - 2022-03-03 11:42:24 --> Undefined variable: msg
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->salvar()
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#6 {main}
+CRITICAL - 2022-03-03 11:46:57 --> Invalid file: /clientes/index.php
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php(31): view()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->salvar()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#8 {main}
+CRITICAL - 2022-03-03 11:48:42 --> Invalid file: /clientes.php
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Common.php(1089): CodeIgniter\View\View->render()
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php(31): view()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->salvar()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#8 {main}
+CRITICAL - 2022-03-03 11:52:11 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php on line 31
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php(31): CodeIgniter\HTTP\RedirectResponse->to()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->salvar()
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#6 {main}
+CRITICAL - 2022-03-03 13:02:23 --> Undefined variable: cliente
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->index()
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#6 {main}
+CRITICAL - 2022-03-03 13:02:27 --> Undefined variable: cliente
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->index()
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#6 {main}
+CRITICAL - 2022-03-03 13:02:35 --> Undefined variable: cliente
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->index()
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#6 {main}
+CRITICAL - 2022-03-03 13:02:42 --> Undefined variable: cliente
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->index()
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#6 {main}
+CRITICAL - 2022-03-03 13:57:13 --> Call to a member function delete() on array
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->deletar()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#5 {main}
+CRITICAL - 2022-03-03 14:13:34 --> Undefined variable: c
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Views\clientes\editar.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\View\View.php(210): include('C:\\Users\\neilto...')
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php(52): view()
+#5 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->editar()
+#6 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#10 {main}
+CRITICAL - 2022-03-03 14:14:15 --> Undefined variable: nome
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Views\clientes\editar.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\View\View.php(210): include('C:\\Users\\neilto...')
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php(52): view()
+#5 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->editar()
+#6 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#10 {main}
+CRITICAL - 2022-03-03 14:18:13 --> Undefined variable: clientes
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Views\clientes\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\View\View.php(210): include('C:\\Users\\neilto...')
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php(52): view()
+#5 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->editar()
+#6 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#10 {main}
+CRITICAL - 2022-03-03 14:18:20 --> Undefined variable: clientes
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Views\clientes\editar.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\View\View.php(210): include('C:\\Users\\neilto...')
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php(52): view()
+#5 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->editar()
+#6 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#10 {main}
+CRITICAL - 2022-03-03 14:18:40 --> Illegal string offset 'nome'
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Views\clientes\editar.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\View\View.php(210): include('C:\\Users\\neilto...')
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php(52): view()
+#5 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->editar()
+#6 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#10 {main}
+CRITICAL - 2022-03-03 15:19:52 --> Undefined variable: c
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Views\clientes\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\View\View.php(210): include('C:\\Users\\neilto...')
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php(26): view()
+#5 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->index()
+#6 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#10 {main}
+CRITICAL - 2022-03-03 15:20:11 --> Undefined variable: c
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Views\clientes\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\View\View.php(210): include('C:\\Users\\neilto...')
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\app\Controllers\Clientes.php(26): view()
+#5 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->index()
+#6 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#10 {main}
+CRITICAL - 2022-03-03 15:28:31 --> Too few arguments to function App\Controllers\Clientes::deletar(), 0 passed in C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(825): App\Controllers\Clientes->deletar()
+#1 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\neilton.silva\Desktop\ADS\code\AdminPadrao\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\neilto...')
+#5 {main}
